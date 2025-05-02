@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 # Songsterr Popup Blocker
 
 **Songsterr Popup Blocker** is a Tampermonkey script designed to enhance your experience on Songsterr by removing intrusive popups and blur effects, ensuring smooth, uninterrupted playback and visible controls.

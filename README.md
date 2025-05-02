@@ -46,7 +46,7 @@ You can easily modify the script to remove other elements or adjust the behavior
 
 ## 🎯 Future Updates
 
-This script is constantly evolving to support more features and handle new changes to the Songsterr site. If you find any issues or want to request new features, feel free to create an issue on GitHub!
+This script is constantly evolving to support more features and handle new changes to the Songsterr site (as im constantly using it). If you find any issues or want to request new features, feel free to create an issue on GitHub!
 
 ---
 

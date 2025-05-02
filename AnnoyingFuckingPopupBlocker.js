@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Songsterr Popup & Blur Blocker (Modular)
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.0
 // @description  Removes upgrade popup and blur overlays on Songsterr for uninterrupted playback and visible controls.
 // @author       You
 // @include      https://www.songsterr.com/*
@@ -11,7 +11,7 @@
 (function () {
     'use strict';
 
-    // Remove blur-like styles from all elements
+    // remove blur-like styles from all elements
     function removeBlurStyles() {
     document.querySelectorAll('*').forEach(el => {
         const style = getComputedStyle(el);

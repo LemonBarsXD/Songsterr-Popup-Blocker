@@ -24,7 +24,7 @@
    
 2. **Add the Userscript**:
    - Download or clone the [Songsterr Popup Blocker](https://github.com/yourusername/Songsterr-Popup-Blocker) repository.
-   - Open **Tampermonkey**, click the **"Add a new script"** button, and paste the contents of the `songsterr-popup-blocker.user.js` script into the editor.
+   - Open **Tampermonkey**, click the **"Add a new script"** button, and paste the contents of the `AnnoyingFuckingPopupBlocker.js` script into the editor.
    - Save the script, and you're ready to go!
 
 3. **Enjoy Uninterrupted Play**:

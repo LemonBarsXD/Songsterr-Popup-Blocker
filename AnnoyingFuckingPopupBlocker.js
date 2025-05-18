@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Removes upgrade popup and blur overlays on Songsterr for uninterrupted playback and visible controls.
-// @author       You
+// @author       https://github.com/LemonBarsXD
 // @include      https://www.songsterr.com/*
 // @grant        none
 // ==/UserScript==

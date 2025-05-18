@@ -1,4 +1,7 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg) 
+![](https://img.shields.io/github/downloads/LemonBarsXD/Songsterr-Popup-Blocker/total?style=flat&label=Downloads&color=green)
+
+
 
 # Songsterr Popup Blocker
 

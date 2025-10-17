@@ -5,14 +5,11 @@
 
 # Songsterr Popup Blocker
 
-**Songsterr Popup Blocker** is a Tampermonkey script designed to enhance your experience on Songsterr by removing intrusive popups and blur effects, ensuring smooth, uninterrupted playback and visible controls.
+**Songsterr Popup Blocker** is a Tampermonkey script designed to enhance your experience on Songsterr by removing intrusive popups, ensuring smooth, uninterrupted playback.
 
 ## 🚀 Features
 
-- **Popup Removal**: Automatically removes the annoying "Upgrade to Plus" popup that interrupts your practice sessions.
-- **Blur Removal**: Clears out unwanted blur overlays that affect the visibility of controls and footer.
-- **Dynamic Blur Detection**: Monitors and removes any new blur-like elements dynamically as the page loads or updates.
-- **Modular and Scalable**: Easily extendable, with the ability to modify or add more elements to remove.
+- **Popup Removal**: Automatically clicks away the annoying "Upgrade to Plus" popup that interrupts your practice sessions.
 
 ## 🛠️ Installation
 
@@ -27,7 +24,7 @@
    
 2. **Add the Userscript**:
    - Download or clone the [Songsterr Popup Blocker](https://github.com/yourusername/Songsterr-Popup-Blocker) repository.
-   - Open **Tampermonkey**, click the **"Add a new script"** button, and paste the contents of the `AnnoyingFuckingPopupBlocker.js` script into the editor.
+   - Open **Tampermonkey**, click the **"Add a new script"** button, and paste the contents of the `SongsterrPopupAnnihilator.js` script into the editor.
    - Save the script, and you're ready to go!
 
 3. **Enjoy Uninterrupted Play**:
@@ -37,15 +34,13 @@
 
 The script works by:
 
-- **Removing popup elements** (like the "Upgrade to Plus" banner).
-- **Clearing blur styles** (using `backdrop-filter` and `filter`) from elements that obscure important controls or visual areas.
-- **Watching for new blur elements** using MutationObservers, ensuring that any dynamically-loaded content also gets cleaned.
+- **Watching for 'continue' a-tag** using MutationObservers, ensuring that the popup has appeared and gets clicked as soon as possible.
 
 ---
 
 ## 📝 Customization
 
-You can easily modify the script to remove other elements or adjust the behavior for your needs. Simply edit the class names or add new ones to the `cleanupAll()` function.
+You can easily modify the script to adjust the behavior for your needs. Simply edit the `linkTextToFind` variable at the start of the function.
 
 ## 🎯 Future Updates
 

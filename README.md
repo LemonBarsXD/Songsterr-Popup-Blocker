@@ -5,7 +5,7 @@
 
 # Songsterr Popup Blocker
 
-**Songsterr Popup Blocker** is a Tampermonkey script designed to enhance your experience on Songsterr by removing intrusive popups, ensuring smooth, uninterrupted playback.
+**Songsterr Popup Blocker** is a Tampermonkey script designed to enhance your experience on Songsterr by removing intrusive popups, ensuring smoother, uninterrupted playback.
 
 ## 🚀 Features
 

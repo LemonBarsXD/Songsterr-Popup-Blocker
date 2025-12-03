@@ -9,7 +9,7 @@
 
 ## 🚀 Features
 
-- **Popup Removal**: Automatically clicks away the annoying "Upgrade to Plus" popup that interrupts your practice sessions.
+- **Popup Removal**: Automatically 'clicks' away the annoying "Upgrade to Plus" popup that interrupts your practice sessions.
 
 ## 🛠️ Installation
 
@@ -24,7 +24,7 @@
    
 2. **Add the Userscript**:
    - Download or clone the [Songsterr Popup Blocker](https://github.com/yourusername/Songsterr-Popup-Blocker) repository.
-   - Open **Tampermonkey**, click the **"Add a new script"** button, and paste the contents of the `SongsterrPopupAnnihilator.js` script into the editor.
+   - Open **Tampermonkey**, click the **"Add a new script"** button, and paste the contents of the `SongsterrPopupGlitcher.js` script into the editor.
    - Save the script, and you're ready to go!
 
 3. **Enjoy Uninterrupted Play**:
@@ -34,13 +34,13 @@
 
 The script works by:
 
-- **Watching for 'continue' a-tag** using MutationObservers, ensuring that the popup has appeared and gets clicked as soon as possible.
+- **Watching for 'continue' a-tag** using MutationObservers, ensuring that the popup has appeared and gets 'clicked' away as soon as you'd like.
 
 ---
 
 ## 📝 Customization
 
-You can easily modify the script to adjust the behavior for your needs. Simply edit the `linkTextToFind` variable at the start of the function.
+You can easily modify the script to adjust the behavior for your needs. Simply edit the variables at the start of the function.
 
 ## 🎯 Future Updates
 
